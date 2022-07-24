@@ -1,0 +1,93 @@
+body{
+  background-color: #0a7171;
+}
+._access-menu {
+ 
+  position: fixed;
+  width: 25vw;
+  height: auto;
+  transition-duration: .5s;
+  z-index: 99991;
+  opacity: 1;
+  background-color: #eeeeee !important;
+  color: #bb0000;
+  border-radius: 3px;
+  border: solid 1px #fff !important;
+  font-family: RobotoDraft, Roboto, sans-serif, Arial;
+  min-width: 300px;
+  box-shadow: 0px 0px 1px #aaa;
+  max-height: 100vh;
+}
+._access-menu h3 {
+  font-size: 24px !important;
+  margin-top:0px !important; 
+  background-color: #465165;
+  padding: 20px !important;
+  color: #fff !important;
+  letter-spacing: initial!important;
+  word-spacing: initial!important;
+}
+._access-menu ul li {
+  list-style-type: none;
+  cursor: pointer;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-weight: 500 !important;
+  border: solid 1px #f1f0f1;
+  padding: 10px 0 10px 30px;
+  margin: 5px;
+  border-radius: 4px;
+  transition-duration: .1s !important;
+  transition-timing-function: ease-in !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  text-indent: 5px;
+  background: #f9f9f9;
+  color: #000 !important;
+  letter-spacing: initial!important;
+  word-spacing: initial!important;
+}
+._access-menu ul li:hover{
+  background-color: #b8bfc6 !important;
+  color: #000 !important;
+}
+._access-menu ._menu-reset-btn {
+  right: 5px;
+  color: #fff !important;
+  border-radius: 5px !important;
+  transition: .3s ease;
+  transform: rotate(0deg);
+}
+._access-menu ._menu-close-btn {
+  left: 5px;
+  color: #f03434 !important;  
+  transition: .3s ease;
+  transform: rotate(0deg);
+}
+._access-menu ul li:before {
+  content: ' ';
+  font-family: Material Icons;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
+  font-style: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 24px !important;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  left: 8px;
+  position: absolute;
+  color: #6f7474 !important;
+  direction: ltr;
+}
+._access-menu ul li::before{
+  color: #000 !important;
+}
+._access-menu ul li svg path {
+  fill: #000 !important ;
+}
